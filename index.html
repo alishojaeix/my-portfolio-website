@@ -1,213 +1,1581 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Ali Shojaei — Backend Developer specializing in Python, Django, REST APIs and AI Agent systems."
+    >
+
+    <title>Ali Shojaei — Backend Developer</title>
+
+    <!-- Google Font -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Boxicons -->
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
+
 <body>
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav-logo">Ali Shojaei</a>
-                <button id="dark-mode-toggle" class="button"> Dark Mode</button>
+
+
+<!-- =====================================================
+     CURSOR
+===================================================== -->
+
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <nav class="nav">
+
+        <a
+            href="#home"
+            class="logo"
+        >
+            ALI<span>.</span>
+        </a>
+
+
+        <div
+            class="nav-menu"
+            id="nav-menu"
+        >
+
+            <a
+                href="#home"
+                class="nav-link active"
+            >
+                Home
+            </a>
+
+            <a
+                href="#about"
+                class="nav-link"
+            >
+                About
+            </a>
+
+            <a
+                href="#skills"
+                class="nav-link"
+            >
+                Skills
+            </a>
+
+            <a
+                href="#projects"
+                class="nav-link"
+            >
+                Selected Work
+            </a>
+
+            <a
+                href="#contact"
+                class="nav-link"
+            >
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="nav-actions">
+
+            <button
+                id="theme-toggle"
+                class="theme-toggle"
+                aria-label="Toggle theme"
+            >
+                <i class="bx bx-moon"></i>
+            </button>
+
+
+            <button
+                id="menu-toggle"
+                class="menu-toggle"
+                aria-label="Open menu"
+            >
+                <i class="bx bx-menu"></i>
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section
+    class="hero"
+    id="home"
+>
+
+
+    <div class="hero-grid"></div>
+
+
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+
+
+    <div class="hero-container">
+
+
+        <!-- LEFT -->
+
+        <div class="hero-content reveal">
+
+            <div class="hero-eyebrow">
+
+                <span class="status-dot"></span>
+
+                AVAILABLE FOR WORK
+
             </div>
 
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
+
+            <h1 class="hero-title">
+
+                <span>HE</span>
+
+                <span>LLO</span>
+
+            </h1>
+
+
+            <div class="hero-description">
+
+                <p>
+                    I build intelligent backend systems,
+                    scalable APIs and AI-powered applications
+                    using Python, Django and modern web technologies.
+                </p>
+
             </div>
 
-            <div class="nav-toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+
+            <div class="hero-actions">
+
+                <a
+                    href="#projects"
+                    class="button button-primary"
+                >
+                    View selected work
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+
+
+                <a
+                    href="#contact"
+                    class="button button-secondary"
+                >
+                    Let's talk
+                </a>
+
             </div>
-        </nav>
-    </header>
 
-    <main class="l-main">
-        <section class="home" id="home">
-            <div class="home-container bd-grid">
-                <h1 class="home-title"><span>HE</span><br>LLO</h1>
+        </div>
 
-                <div class="home-scroll">
-                    <a href="#about" class="home-scroll-link"><i class='bx bx-up-arrow-alt' ></i>SCROLL DOWN</a>
+
+
+        <!-- PORTRAIT -->
+
+        <div class="hero-portrait-wrap reveal">
+
+
+            <div class="portrait-glow"></div>
+
+
+            <div class="portrait-orbit portrait-orbit-1"></div>
+
+            <div class="portrait-orbit portrait-orbit-2"></div>
+
+
+            <div class="portrait">
+
+                <div class="portrait-label">
+
+                    <span>ALI</span>
+
+                    <span>SHOJAEI</span>
+
                 </div>
 
-                <img src="high-quality.png" alt="alishojei" class="home-img">
+
+                <img
+                    src="high-quality.png"
+                    alt="Ali Shojaei"
+                >
+
+
+                <div class="portrait-light"></div>
+
             </div>
-        </section>
-    
 
-        <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
 
-            <div class="about-container bd-grid">
-                <div class="about-img">
-                    <img src="high-quality.png" alt="John Doe image">
-                </div>
+            <div class="portrait-index">
+
+                <span>01</span>
+
+                <span>BACKEND</span>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="hero-bottom">
+
+        <div class="hero-scroll">
+
+            <span class="scroll-line"></span>
+
+            <span>SCROLL TO EXPLORE</span>
+
+        </div>
+
+
+        <div class="hero-location">
+
+            <span>TEHRAN</span>
+
+            <span>IR / 2026</span>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     MARQUEE
+===================================================== -->
+
+<section class="marquee-section">
+
+    <div class="marquee">
+
+        <div class="marquee-track">
+
+            <span>PYTHON</span>
+            <span>DJANGO</span>
+            <span>REST API</span>
+            <span>ARTIFICIAL INTELLIGENCE</span>
+            <span>AI AGENTS</span>
+            <span>POSTGRESQL</span>
+            <span>JAVASCRIPT</span>
+            <span>PYTHON</span>
+            <span>DJANGO</span>
+            <span>REST API</span>
+            <span>AI AGENTS</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section
+    class="section about"
+    id="about"
+>
+
+
+    <div class="section-header reveal">
+
+        <span class="section-number">
+            01
+        </span>
+
+        <span class="section-label">
+            ABOUT ME
+        </span>
+
+    </div>
+
+
+    <div class="about-grid">
+
+
+        <div class="about-intro reveal">
+
+            <h2>
+
+                Backend systems
+                <br>
+
+                <span>with a creative mind.</span>
+
+            </h2>
+
+        </div>
+
+
+        <div class="about-content reveal">
+
+            <p class="about-large">
+
+                I'm Ali Shojaei, a backend-focused developer
+                interested in building reliable systems,
+                intelligent applications and meaningful digital
+                experiences.
+
+            </p>
+
+
+            <p>
+
+                My work combines Python and Django backend
+                development with REST APIs, databases and
+                AI technologies. I enjoy turning complex
+                ideas into clean, scalable and usable systems.
+
+            </p>
+
+
+            <div class="about-meta">
 
                 <div>
-                    <h2 class="about-subtitle">I'm Ali Shojaei</h2>
-                    <span class="about-profession">Web Designer</span>
-                    <p class="about-text">As a passionate web designer, I thrive on creating visually appealing and user-friendly websites. My journey in web design began with a fascination for how design can enhance user experience</p>
 
-                    <div class="about-social">
-                        <a href="#" class="about-social-icon"><i class='bx bxl-linkedin'></i></a>
-                        <a href="#" class="about-social-icon"><i class='bx bxl-github'></i></a>
-                        <a href="#" class="about-social-icon"><i class='bx bxl-instagram'></i></a>
-                    </div>
-                </div>   
-            </div>
-        </section>
+                    <span>FOCUS</span>
 
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+                    <strong>
+                        Backend / AI
+                    </strong>
 
-            <div class="skills-container bd-grid">
-                <div class="skills-box">
-                    <h3 class="skils-subtitle">Development</h3>
-
-                    <span class="skills-name">HTML</span>
-                    <span class="skills-name">CSS</span>
-                    <span class="skills-name">JAVASCRIPT</span>
-                    <span class="skills-name">SASS</span>
-                    <span class="skills-name">REACT</span>
-                    <span class="skills-name">VUE</span>
-
-                    <h3 class="skils-subtitle">Design</h3>
-
-                    <span class="skills-name">FIGMA</span>
-                    <span class="skills-name">ADOBE XD</span>
-                    <span class="skills-name">PHOTOSHOP</span>
                 </div>
 
-                <div class="skills-img">
-                    <img src="https://i.postimg.cc/MKtW8YXC/Blue-And-Purple-Professional-Technology-Linked-In-Banner.png" alt="skills image">
-                </div>
-            </div>
-        </section>
 
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section-title">Portfolio</h2>
+                <div>
 
-            <div class="portfolio-container bd-grid">
-                <div class="portfolio-img">
-                    <img src="https://i.postimg.cc/Wzbq5hG3/screenshot-4.png" alt="work image">
+                    <span>STACK</span>
 
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
+                    <strong>
+                        Python / Django
+                    </strong>
+
                 </div>
 
-                <div class="portfolio-img">
-                    <img src="https://i.postimg.cc/2Sj9nwLR/screenshot-3.png" alt="work image">
 
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
+                <div>
 
-                <div class="portfolio-img">
-                    <img src="https://i.postimg.cc/FRG7kNMQ/screenshot-5.png" alt="work image">
+                    <span>APPROACH</span>
 
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
+                    <strong>
+                        Clean & Scalable
+                    </strong>
 
-                <div class="portfolio-img">
-                    <img src="https://i.postimg.cc/k5g4rkV1/screenshot.png" alt="work image">
-
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
-
-                <div class="portfolio-img">
-                    <img src="https://i.postimg.cc/mgbZM0SL/screenshot-2.png" alt="work image">
-
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
-
-                <div class="portfolio-img">
-                    <img src="https://i.postimg.cc/L6PXKPjR/screenshot-6.png" alt="work image">
-
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
                 </div>
 
             </div>
-        </section>
 
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="contact-container bd-grid">
-                <div class="contact-info">
-                    <h3 class="contact-subtitle">EMAIL</h3>
-                    <span class="contact-text">alishojaei898@gmail.com</span>
-
-                    <h3 class="contact-subtitle">PHONE</h3>
-                    <span class="contact-text">+989024627068</span>
-
-                    <h3 class="contact-subtitle">ADDRESS</h3>
-                    <span class="contact-text">iran,tehran</span>
-                </div>
-
-                <form action="" class="contact-form">
-                    <div class="contact-inputs">
-                        <input type="text" placeholder="Name" class="contact-input">
-                        <input type="email" placeholder="Email" class="contact-input">
-                    </div>
-
-                    <textarea name="" id="" cols="0" rows="10" class="contact-input"></textarea>
-
-                    <input type="submit" value="Send" class="contact-button">
-                </form>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer section">
-        <div class="footer-container bd-grid">
-            <div class="footer-data">
-                <h2 class="footer-title">Ali shojaei</h2>
-                <p class="footer-text">I'm Ali shojaei and this is my personal website</p>
-            </div>
-
-            <div class="footer-data">
-                <h2 class="footer-title">Ali shojaei</h2>
-                <ul>
-                    <li><a href="#home" class="footer-link">Home</a></li>
-                    <li><a href="#about" class="footer-link">About</a></li>
-                    <li><a href="#skills" class="footer-link">Skills</a></li>
-                    <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
-                    <li><a href="#contact" class="footer-link">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-data">
-                <h2 class="footer-title">FOLLOW</h2>
-
-                <a href="#" class="footer-social"><i class='bx bxl-instagram'></i></a>
-                <a href="#" class="footer-social"><i class='bx bxl-facebook'></i></a>
-                <a href="#" class="footer-social"><i class='bx bxl-twitter'></i></a>
-            </div>
         </div>
-    </footer>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="main.js"></script>
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section
+    class="section skills"
+    id="skills"
+>
+
+
+    <div class="section-header reveal">
+
+        <span class="section-number">
+            02
+        </span>
+
+        <span class="section-label">
+            CAPABILITIES
+        </span>
+
+    </div>
+
+
+    <div class="skills-header reveal">
+
+        <h2>
+            Tools I use to
+            <span>build.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="skills-list">
+
+
+        <div class="skill-row reveal">
+
+            <span class="skill-number">
+                01
+            </span>
+
+            <div class="skill-name">
+                Python
+            </div>
+
+            <div class="skill-description">
+                Backend development, automation,
+                data processing and AI integrations.
+            </div>
+
+            <i class="bx bx-right-arrow-alt"></i>
+
+        </div>
+
+
+        <div class="skill-row reveal">
+
+            <span class="skill-number">
+                02
+            </span>
+
+            <div class="skill-name">
+                Django
+            </div>
+
+            <div class="skill-description">
+                Scalable web applications,
+                authentication, business logic and APIs.
+            </div>
+
+            <i class="bx bx-right-arrow-alt"></i>
+
+        </div>
+
+
+        <div class="skill-row reveal">
+
+            <span class="skill-number">
+                03
+            </span>
+
+            <div class="skill-name">
+                REST APIs
+            </div>
+
+            <div class="skill-description">
+                Structured APIs, authentication,
+                permissions, validation and integrations.
+            </div>
+
+            <i class="bx bx-right-arrow-alt"></i>
+
+        </div>
+
+
+        <div class="skill-row reveal">
+
+            <span class="skill-number">
+                04
+            </span>
+
+            <div class="skill-name">
+                AI Agents
+            </div>
+
+            <div class="skill-description">
+                Autonomous workflows, tool usage,
+                retrieval, reasoning and automation.
+            </div>
+
+            <i class="bx bx-right-arrow-alt"></i>
+
+        </div>
+
+
+        <div class="skill-row reveal">
+
+            <span class="skill-number">
+                05
+            </span>
+
+            <div class="skill-name">
+                Frontend
+            </div>
+
+            <div class="skill-description">
+                HTML, CSS, JavaScript, React,
+                responsive interfaces and interactions.
+            </div>
+
+            <i class="bx bx-right-arrow-alt"></i>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section
+    class="section projects"
+    id="projects"
+>
+
+
+    <div class="section-header reveal">
+
+        <span class="section-number">
+            03
+        </span>
+
+        <span class="section-label">
+            SELECTED WORK
+        </span>
+
+    </div>
+
+
+    <div class="projects-intro reveal">
+
+        <h2>
+
+            Selected
+            <span>projects.</span>
+
+        </h2>
+
+        <p>
+            A collection of backend, AI and web systems
+            designed around real-world problems.
+        </p>
+
+    </div>
+
+
+
+    <!-- =================================================
+         PROJECT 01 — AI AGENTS
+    ================================================= -->
+
+    <article class="project reveal">
+
+
+        <div class="project-top">
+
+            <span>
+                01
+            </span>
+
+            <span>
+                AI AGENT / AUTOMATION
+            </span>
+
+            <span>
+                2026
+            </span>
+
+        </div>
+
+
+        <div class="project-visual project-ai">
+
+
+            <div class="project-grid"></div>
+
+
+            <div class="ai-dashboard">
+
+
+                <aside class="ai-sidebar">
+
+                    <div class="ai-brand">
+                        AI<span>OS</span>
+                    </div>
+
+
+                    <div class="ai-nav active">
+                        Overview
+                    </div>
+
+                    <div class="ai-nav">
+                        Agents
+                    </div>
+
+                    <div class="ai-nav">
+                        Workflows
+                    </div>
+
+                    <div class="ai-nav">
+                        Knowledge
+                    </div>
+
+                    <div class="ai-nav">
+                        Analytics
+                    </div>
+
+                </aside>
+
+
+
+                <div class="ai-main">
+
+
+                    <div class="ai-header">
+
+                        <div>
+
+                            <span class="eyebrow">
+                                INTELLIGENT AUTOMATION
+                            </span>
+
+                            <h3>
+                                AI AGENT
+                            </h3>
+
+                        </div>
+
+
+                        <div class="live-status">
+
+                            <span></span>
+
+                            LIVE
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="agent-cards">
+
+
+                        <div class="agent-card">
+
+                            <div class="agent-icon">
+                                ✦
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Research Agent
+                                </strong>
+
+                                <small>
+                                    Autonomous research
+                                </small>
+
+                            </div>
+
+                            <b>
+                                98%
+                            </b>
+
+                        </div>
+
+
+                        <div class="agent-card">
+
+                            <div class="agent-icon">
+                                ↗
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Automation Agent
+                                </strong>
+
+                                <small>
+                                    Workflow execution
+                                </small>
+
+                            </div>
+
+                            <b>
+                                94%
+                            </b>
+
+                        </div>
+
+
+                        <div class="agent-card">
+
+                            <div class="agent-icon">
+                                ◉
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Support Agent
+                                </strong>
+
+                                <small>
+                                    Context-aware answers
+                                </small>
+
+                            </div>
+
+                            <b>
+                                91%
+                            </b>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="agent-activity">
+
+                        <div class="activity-title">
+                            RECENT ACTIVITY
+                        </div>
+
+
+                        <div class="activity-row">
+
+                            <span>
+                                Research Agent
+                            </span>
+
+                            <span>
+                                Analysing documents
+                            </span>
+
+                            <i>
+                                RUNNING
+                            </i>
+
+                        </div>
+
+
+                        <div class="activity-row">
+
+                            <span>
+                                Automation Agent
+                            </span>
+
+                            <span>
+                                Executing workflow
+                            </span>
+
+                            <i>
+                                ACTIVE
+                            </i>
+
+                        </div>
+
+
+                        <div class="activity-row">
+
+                            <span>
+                                Support Agent
+                            </span>
+
+                            <span>
+                                Generating response
+                            </span>
+
+                            <i>
+                                DONE
+                            </i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="project-info">
+
+
+            <div class="project-description">
+
+                <div class="project-title-row">
+
+                    <h3>
+                        AI AGENT PLATFORM
+                    </h3>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+
+                <p>
+
+                    An intelligent backend platform designed
+                    to orchestrate autonomous AI agents.
+
+                    Agents can research information,
+                    analyse documents, retrieve knowledge,
+                    interact with external APIs, execute
+                    multi-step workflows and generate
+                    context-aware responses.
+
+                </p>
+
+            </div>
+
+
+            <div class="project-stack">
+
+                PYTHON
+                <span>·</span>
+                DJANGO
+                <span>·</span>
+                AI
+                <span>·</span>
+                AUTOMATION
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- =================================================
+         PROJECT 02 — REST API
+    ================================================= -->
+
+    <article class="project reveal">
+
+
+        <div class="project-top">
+
+            <span>
+                02
+            </span>
+
+            <span>
+                BACKEND / REST API
+            </span>
+
+            <span>
+                2026
+            </span>
+
+        </div>
+
+
+        <div class="project-visual project-api">
+
+
+            <div class="api-background"></div>
+
+
+            <div class="api-dashboard">
+
+
+                <div class="api-topbar">
+
+                    <div class="api-logo">
+                        API<span>CORE</span>
+                    </div>
+
+
+                    <div class="api-server">
+
+                        <span></span>
+
+                        ALL SYSTEMS OPERATIONAL
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="api-body">
+
+
+                    <aside class="api-sidebar">
+
+                        <span class="api-label">
+                            ENDPOINTS
+                        </span>
+
+
+                        <div class="endpoint active">
+
+                            <b>
+                                GET
+                            </b>
+
+                            /users
+
+                        </div>
+
+
+                        <div class="endpoint">
+
+                            <b>
+                                POST
+                            </b>
+
+                            /users
+
+                        </div>
+
+
+                        <div class="endpoint">
+
+                            <b>
+                                GET
+                            </b>
+
+                            /projects
+
+                        </div>
+
+
+                        <div class="endpoint">
+
+                            <b>
+                                POST
+                            </b>
+
+                            /auth
+
+                        </div>
+
+                    </aside>
+
+
+
+                    <div class="api-content">
+
+
+                        <div class="request-line">
+
+                            <span class="method">
+                                GET
+                            </span>
+
+                            <span>
+                                /api/v1/users
+                            </span>
+
+                            <span class="response-code">
+                                200 OK
+                            </span>
+
+                        </div>
+
+
+
+                        <div class="code-window">
+
+<pre><span>GET</span> /api/v1/users
+
+{
+  "status": "success",
+  "results": 1248,
+  "data": [
+    {
+      "id": 1024,
+      "name": "Ali",
+      "role": "developer",
+      "active": true
+    }
+  ]
+}</pre>
+
+                        </div>
+
+
+
+                        <div class="api-metrics">
+
+
+                            <div>
+
+                                <small>
+                                    REQUESTS
+                                </small>
+
+                                <strong>
+                                    1.28M
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <small>
+                                    LATENCY
+                                </small>
+
+                                <strong>
+                                    84ms
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <small>
+                                    UPTIME
+                                </small>
+
+                                <strong>
+                                    99.98%
+                                </strong>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="project-info">
+
+
+            <div class="project-description">
+
+                <div class="project-title-row">
+
+                    <h3>
+                        REST API PLATFORM
+                    </h3>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+
+                <p>
+
+                    A production-oriented backend architecture
+                    built around Django and REST principles.
+
+                    The platform provides authentication,
+                    permissions, structured endpoints,
+                    validation, database operations and
+                    scalable API services for modern
+                    applications.
+
+                </p>
+
+            </div>
+
+
+            <div class="project-stack">
+
+                PYTHON
+                <span>·</span>
+                DJANGO
+                <span>·</span>
+                DRF
+                <span>·</span>
+                POSTGRESQL
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- =================================================
+         PROJECT 03 — AI SAAS
+    ================================================= -->
+
+    <article class="project reveal">
+
+
+        <div class="project-top">
+
+            <span>
+                03
+            </span>
+
+            <span>
+                AI SAAS / WEB APP
+            </span>
+
+            <span>
+                2026
+            </span>
+
+        </div>
+
+
+        <div class="project-visual project-saas">
+
+
+            <div class="saas-window">
+
+
+                <div class="saas-sidebar">
+
+                    <div class="saas-logo">
+                        AI<span>OS</span>
+                    </div>
+
+
+                    <div class="saas-item active">
+                        <i class="bx bx-grid-alt"></i>
+                        Dashboard
+                    </div>
+
+                    <div class="saas-item">
+                        <i class="bx bx-bot"></i>
+                        Agents
+                    </div>
+
+                    <div class="saas-item">
+                        <i class="bx bx-task"></i>
+                        Tasks
+                    </div>
+
+                    <div class="saas-item">
+                        <i class="bx bx-bar-chart-alt-2"></i>
+                        Analytics
+                    </div>
+
+                    <div class="saas-item">
+                        <i class="bx bx-cog"></i>
+                        Settings
+                    </div>
+
+                </div>
+
+
+
+                <div class="saas-main">
+
+
+                    <div class="saas-header">
+
+                        <div>
+
+                            <small>
+                                WORKSPACE
+                            </small>
+
+                            <h3>
+                                Overview
+                            </h3>
+
+                        </div>
+
+
+                        <button>
+                            + CREATE
+                        </button>
+
+                    </div>
+
+
+
+                    <div class="saas-stats">
+
+
+                        <div class="saas-stat">
+
+                            <span>
+                                ACTIVE AGENTS
+                            </span>
+
+                            <strong>
+                                24
+                            </strong>
+
+                            <small>
+                                +12.4%
+                            </small>
+
+                        </div>
+
+
+                        <div class="saas-stat">
+
+                            <span>
+                                TASKS
+                            </span>
+
+                            <strong>
+                                182
+                            </strong>
+
+                            <small>
+                                +8.2%
+                            </small>
+
+                        </div>
+
+
+                        <div class="saas-stat">
+
+                            <span>
+                                SUCCESS RATE
+                            </span>
+
+                            <strong>
+                                96.4%
+                            </strong>
+
+                            <small>
+                                +3.1%
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="saas-chart">
+
+                        <div class="chart-header">
+
+                            <span>
+                                AGENT ACTIVITY
+                            </span>
+
+                            <span>
+                                LAST 30 DAYS
+                            </span>
+
+                        </div>
+
+
+                        <div class="chart">
+
+                            <div class="chart-line line-1"></div>
+
+                            <div class="chart-line line-2"></div>
+
+                            <div class="chart-line line-3"></div>
+
+                            <div class="chart-area"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="project-info">
+
+
+            <div class="project-description">
+
+                <div class="project-title-row">
+
+                    <h3>
+                        AI SAAS WORKSPACE
+                    </h3>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+
+                <p>
+
+                    A modern SaaS interface for managing
+                    AI-powered workflows, autonomous agents,
+                    tasks and analytics from a unified
+                    workspace.
+
+                </p>
+
+            </div>
+
+
+            <div class="project-stack">
+
+                JAVASCRIPT
+                <span>·</span>
+                REST API
+                <span>·</span>
+                AI
+                <span>·</span>
+                SAAS
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section
+    class="section contact"
+    id="contact"
+>
+
+
+    <div class="section-header reveal">
+
+        <span class="section-number">
+            04
+        </span>
+
+        <span class="section-label">
+            CONTACT
+        </span>
+
+    </div>
+
+
+    <div class="contact-container">
+
+
+        <div class="contact-heading reveal">
+
+            <span>
+                HAVE A PROJECT?
+            </span>
+
+            <h2>
+
+                Let's build
+                <br>
+
+                <strong>
+                    something useful.
+                </strong>
+
+            </h2>
+
+        </div>
+
+
+
+        <div class="contact-content reveal">
+
+
+            <p>
+
+                I'm interested in backend engineering,
+                AI systems and challenging products.
+
+                If you have an idea or an opportunity,
+                feel free to reach out.
+
+            </p>
+
+
+            <a
+                href="mailto:alishojaei898@gmail.com"
+                class="contact-email"
+            >
+                alishojaei898@gmail.com
+
+                <i class="bx bx-right-arrow-alt"></i>
+
+            </a>
+
+
+            <div class="contact-socials">
+
+
+                <a
+                    href="https://github.com/alishojaeix"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+
+                <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+
+                <a
+                    href="#"
+                >
+                    Instagram
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+
+    <div class="footer-top">
+
+
+        <div class="footer-logo">
+            ALI<span>.</span>
+        </div>
+
+
+        <div>
+            BACKEND DEVELOPER
+        </div>
+
+
+        <div>
+            PYTHON · DJANGO · AI
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Ali Shojaei
+        </span>
+
+        <span>
+            Designed & built with code.
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="main.js"></script>
+
 </body>
+
 </html>
